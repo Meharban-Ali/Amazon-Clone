@@ -227,6 +227,7 @@ span{
     width:230px;
     background-image: url("image/box1_image.jpg");
     margin-left: 18px;
+    cursor: pointer;
 }
 .box-img2{
     height: 185px;
@@ -234,6 +235,7 @@ span{
     background-image: url("image/box2_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 .box-img3{
     height: 185px;
@@ -241,6 +243,7 @@ span{
     background-image: url("image/box3_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 .box-img4{
     height: 185px;
@@ -248,11 +251,13 @@ span{
     background-image: url("image/box4_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 /* --------------section-2------------------------- */
 .shop-section2{
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
     /* background-color: white; */
 }
 .box-img5{
@@ -261,6 +266,7 @@ span{
     background-image: url("image/box5_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 
 .box-img6{
@@ -269,6 +275,7 @@ span{
     background-image: url("image/box6_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 .box-img7{
     height: 185px;
@@ -276,6 +283,7 @@ span{
     background-image: url("image/box7_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 .box-img8{
     height: 185px;
@@ -283,6 +291,7 @@ span{
     background-image: url("image/box8_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 
 .box-img9{
@@ -291,6 +300,7 @@ span{
     background-image: url("image/box9_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 
 .box-img10{
@@ -299,6 +309,7 @@ span{
     background-image: url("image/box10_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 
 .box-img11{
@@ -307,6 +318,7 @@ span{
     background-image: url("image/box11_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
 
 .box-img12{
@@ -315,4 +327,5 @@ span{
     background-image: url("image/box12_image.jpg");
     background-size: cover;
     margin-left:18px;
+    cursor: pointer;
 }
