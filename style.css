@@ -6,8 +6,7 @@
 }
 /*-------------background image------------- */
 body{
-    background-image: url("image/background.jpg");
-    background-size: cover;
+    background-color:burlywood;
 }
 
 /* first box-1 */
@@ -339,7 +338,7 @@ span{
     color: aliceblue;
     text-align: center;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     margin-top: 10px;
     font-size: 25px;
     padding-top: 15px;
@@ -394,7 +393,7 @@ ul li{
 .row1{
     background-color:#222f3d;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     margin-top: 0.7px;
 }
 .amz-logo{
@@ -407,8 +406,9 @@ ul li{
     width: 150px;
     height: 60px;
     position: relative;
-    bottom: 5px;
-    margin-left: 25rem;
+    bottom: 25px;
+    margin-left: 23rem;
+    cursor: pointer;
 }
 
 .row-logo2{
@@ -418,18 +418,66 @@ ul li{
     width: 150px;
     height: 40px;
     position: relative;
-    bottom: 5px;
     margin-left:250px;
 }
 
 .row-logo2 img{
     width: 20px;
     height: 20px;
-    padding-top: 16px;
-    padding-left: 4px;
+    padding-top: 8px;
+    padding-left: 9px;
 }
-span{
-    color: aliceblue;
-    padding-left: 18px;
+img{
+    padding-top: 7px;
+    cursor: pointer;
+}
+a{
+    font-size: 20px;
     padding-bottom: 10px;
+    color: aliceblue;
+    padding-left: 30px;
+    list-style-type:none;
+    text-decoration: none;
+
 }
+
+.country-name-list, .ul1{
+    display: flex;
+    width: 70%;
+    height: auto;
+}
+.sub-last{
+    width: 100%;
+    height: 20vh;
+    background-color:#020606;
+}
+
+.sub-last{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-1, ul-2{
+color: #f3f3f3;
+margin-top: 10px;
+}
+
+.size{
+    font-size: 17px;
+}
+
+.color{
+    font-size: 14px;
+    color: #757474;
+}
+
+.ul-3{
+margin-left: 90px;
+}
+
+.ul-4{
+    margin-left: 40px;
+    }
+
+.ul-5{
+        margin-left: 140px;
+        }
