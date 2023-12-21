@@ -393,7 +393,7 @@ ul li{
 .row1{
     background-color:#222f3d;
     width: 100%;
-    height: 40vh;
+    height: 33vh;
     margin-top: 0.7px;
 }
 .amz-logo{
@@ -448,7 +448,7 @@ a{
 }
 .sub-last{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-color:#020606;
 }
 
@@ -471,13 +471,31 @@ margin-top: 10px;
 }
 
 .ul-3{
-margin-left: 90px;
+margin-left: 150px;
 }
 
-.ul-4{
-    margin-left: 40px;
-    }
+b{
+    color: darkcyan;
+}
+.mark{
+    display: flex;
+}
+.marq{
+    padding-top: 12px;
+    font-size: 25px;
+    color: #02274a;
+    height: 6vh;
+    animation: mark 5s 2s infinite linear;
+}
 
-.ul-5{
-        margin-left: 140px;
-        }
+@keyframes mark {
+    0%{
+        color: aliceblue;
+    }
+    100%{
+        color: #011223;
+    }
+    /* 100%{
+        color: green;
+    } */
+}
