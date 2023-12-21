@@ -431,12 +431,11 @@ img{
     padding-top: 7px;
     cursor: pointer;
 }
-a{
+.a{
     font-size: 20px;
     padding-bottom: 10px;
     color: aliceblue;
     padding-left: 30px;
-    list-style-type:none;
     text-decoration: none;
 
 }
@@ -485,7 +484,7 @@ b{
     font-size: 25px;
     color: #02274a;
     height: 6vh;
-    animation: mark 5s 2s infinite linear;
+    animation: mark 2s 2s infinite linear;
 }
 
 @keyframes mark {
