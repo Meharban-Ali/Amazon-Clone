@@ -7,10 +7,13 @@
     <title>Amazon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+    <link rel="stylesheet" href="SliderStyle.css">
+
 </head>
 <body>
     <!-- craete a header -->
-    <header> 
+    <header class="header" id="myHeader"> 
         <!-- box 1 start  -->
         <div class="navbar">
             <div class="nav-logo border">
@@ -67,6 +70,7 @@
           Cart
         </div>
         </div>
+    
 <!--------------- next navbar------------------------------------ -->
         <div class="panel">
             <div class="panel-all">
@@ -87,99 +91,282 @@
             </div>
         </div>
     </header>
+
     <div class="mark">
     <marquee class="marq" behavior="alternate" direction="right"><h5>Amazon Products & Services</h5></marquee>
 </div>
     <!--    hero section      -->
     <div class="hero-section">
+        <!-- ====START======= Full-width images with number and caption text ===========-->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="SliderImage/img1.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="SliderImage/img2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="SliderImage/img3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="SliderImage/img4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="SliderImage/img5.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="SliderImage/img6.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="SliderImage/img7.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="SliderImage/img8.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+    <!-- Next and previous buttons ================BUTTONS=============-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+<!-- ====END SLIDER======= Full-width images with number and caption text ===========-->
+
+
    <div class="hero-message">
     <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a class="link" href="https://www.amazon.com/">Click here to go to amazon.in</a></p>
    </div>
+
+
     </div>
     <!-- ----------------------shopping section  1------------------>
+    <div class="mainDiv">
+        <div>
+            <marquee behavior="alternate" direction="right"><p class="txt">Best Quality Laptops Available......</p></marquee>
+        </div>
+    </div>
     <div class="shop-section1">
         <!-- box-1 -->
         <div class="box1 box"> 
-            <h3>Feincy Saries & Clothes</h3>
+            <h3>HP Laptops</h3>
             <div class="box-img1"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
-        <!-- box-2 -->
         <div class="box2 box">
-            <h3>Helath & Personal care</h3>
+            <h3>Dells Laptops </h3>
             <div class="box-img2"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
         <div class="box3 box">
-            <h3>Table books & chairs</h3>
+            <h3>Dells Laptops Trendind</h3>
             <div class="box-img3"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
         <div class="box4 box">
-            <h3>Mobile phones & and Devices</h3>
+            <h3>Lenovo Laptop & and Devices</h3>
             <div class="box-img4"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
     </div>
 <!-- --------------------shopping section 2 ---------------------->
+<div class="mainDiv">
+    <div>
+        <marquee behavior="alternate" direction="right"><p class="txt">Best Quality Ear-Phones Available...</p></marquee>
+    </div>
+</div>
     <div class="shop-section2">
         <!-- box-1 -->
         <div class="box1 box"> 
-            <h3>BeautiCare & Products</h3>
+            <h3>Head-Phones..</h3>
             <div class="box-img5"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
         <!-- box--------2 -->
         <div class="box2 box">
-            <h3>Entertainments </h3>
+            <h3>Ear-Pods.. </h3>
             <div class="box-img6"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
         <!-- box------3 -->
         <div class="box3 box">
-            <h3>Toys</h3>
+            <h3>Ear-Pods..</h3>
             <div class="box-img7"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
         <!-- box------4 -->
         <div class="box4 box">
-            <h3>Ladies sliper shoes mackup</h3>
+            <h3>Ear-Phones..</h3>
             <div class="box-img8"></div>
-            <p>see more</p>
+            <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
         </div>
     </div>
   
 <!-- ----------------------shopping section  3------------------>
+<div class="mainDiv">
+    <div>
+        <marquee behavior="alternate" direction="right"><p class="txt">See the fruits Amazing and Fresh..</p></marquee>
+    </div>
+</div>
 <div class="shop-section1">
     <!-- box-1 -->
     <div class="box1 box"> 
-        <h3>Feincy Saries & Clothes</h3>
+        <h3>Orange Fruits..</h3>
         <div class="box-img9"></div>
-        <p>see more</p>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
     </div>
     <!-- box-2 -->
     <div class="box2 box">
-        <h3>Helath & Personal care</h3>
+        <h3>Bset Fruits Lichi..</h3>
         <div class="box-img10"></div>
-        <p>see more</p>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
     </div>
     <div class="box3 box">
-        <h3>Table books & chairs</h3>
+        <h3>Fresh Fruit Guava..</h3>
         <div class="box-img11"></div>
-        <p>see more</p>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
     </div>
     <div class="box4 box">
-        <h3>Mobile phones & and Devices</h3>
+        <h3>Pomegranate..</h3>
         <div class="box-img12"></div>
-        <p>see more</p>
+        <p class="see-more" id="see_more">see more <i class="fa-solid fa-star"></i></p>
     </div>
 </div>
+<!-- =========== shoping section 4============= -->
+<!-- ----------------------shopping section  4------------------>
+<div class="mainDiv">
+    <div>
+        <marquee behavior="alternate" direction="right"><p class="txt">Daily Based Use Product...</p></marquee>
+    </div>
+</div>
+<div class="shop-section1">
+    <!-- box-1 -->
+    <div class="box1 box"> 
+        <h3>Ear-Pods Pro</h3>
+        <div class="box-img13"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <!-- box-2 -->
+    <div class="box2 box">
+        <h3>Ear-Phones..</h3>
+        <div class="box-img14"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box3 box">
+        <h3>Laptops</h3>
+        <div class="box-img15"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box4 box">
+        <h3>Laptop Lenovo AMD Pror</h3>
+        <div class="box-img16"></div>
+        <p class="see-more" id="see_more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+</div>
+
+<!-- SHOPPING SECTION =======5================== -->
+<!-- ----------------------shopping section  5------------------>
+<div class="mainDiv">
+    <div>
+        <marquee behavior="alternate" direction="right"><p class="txt">Clothes for ladies and jents...</p></marquee>
+    </div>
+</div>
+<div class="shop-section1">
+    <!-- box-1 -->
+    <div class="box1 box"> 
+        <h3>Ear-Pods Pro</h3>
+        <div class="box-img17"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <!-- box-2 -->
+    <div class="box2 box">
+        <h3>Ear-Phones..</h3>
+        <div class="box-img18"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box3 box">
+        <h3>Laptops</h3>
+        <div class="box-img19"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box4 box">
+        <h3>Laptop Lenovo AMD Pror</h3>
+        <div class="box-img20"></div>
+        <p class="see-more" id="see_more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+</div>
+
+<!-- SHOPPING SECTION =======6================== -->
+<!-- ----------------------shopping section  6------------------>
+<div class="mainDiv">
+    <div>
+        <marquee behavior="alternate" direction="right"><p class="txt">Vital Organics Onion Hair Oil...</p></marquee>
+    </div>
+</div>
+<div class="shop-section1">
+    <!-- box-1 -->
+    <div class="box1 box"> 
+        <h3>Ear-Pods Pro</h3>
+        <div class="box-img21"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <!-- box-2 -->
+    <div class="box2 box">
+        <h3>Ear-Phones..</h3>
+        <div class="box-img22"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box3 box">
+        <h3>Laptops</h3>
+        <div class="box-img23"></div>
+        <p class="see-more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+    <div class="box4 box">
+        <h3>Laptop Lenovo AMD Pror</h3>
+        <div class="box-img24"></div>
+        <p class="see-more" id="see_more">see more <i class="fa-solid fa-star"></i></p>
+    </div>
+</div>
+<!-- ===End Shopping Image======  1 TO 6 SECTION ========== -->
+
+
 
 <div>
 <div>
     <div class="small-section">
         <div class="small-inner-section">
-           <marquee behavior="alternate" direction="right"><b>Hello I Am a Software Developer(Meharban Ali)</b> </marquee>
+           <marquee behavior="alternate" direction="right"><b> Hello.. I Am a Software Developer(Meharban Ali)</b> </marquee>
         </div>
     </div>
     <div>
@@ -347,4 +534,5 @@
 </div>
 </div>
 </body>
+<script src="script.js"></script>
 </html>

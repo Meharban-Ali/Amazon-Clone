@@ -6,12 +6,12 @@
 }
 /*-------------background image------------- */
 body{
-    background-color:burlywood;
+    /* background-image:url("Background_Image/BackGround.jpeg"); */
+    background-color: bisque;
 }
-
 /* first box-1 */
 .navbar{
-    width: auto;
+    width: 100%;
     height: 60px;
     background-color:#0f1111;
     color: white;
@@ -184,23 +184,28 @@ span{
     font-weight: 500;
 }
 /* -------------------design hero section--------- */
-.hero-section{
+/* .hero-section{
     height: 350px;
-    background-image: url("image/hero_image.jpg");
+    background-image: url("SliderImage/img7.jpg");
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
+} */
 /* -----------message section------------------- */
 .hero-message{
-   background-color: white;
    height: 35px;
    width: 1040px;
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-bottom: 15px;
+   background-color:orangered;
+   color:#f3f3f3;
+   font-size: 15px;
+   font-weight: bold;
+   margin-left: 23px;
+   border-radius: 10px;
+   margin-top: 70px;
 } 
 .link{
     text-decoration: none;
@@ -215,44 +220,86 @@ span{
     /* background-color: white; */
 }
 .box{
-    border: 2px solid black;
-    width: 22%;
-    height:225px;
+    width: 23%;
+    height:55vh;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color:green;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
 }
+.box:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: scale(1.01);
+}
+#see_more{
+    margin-top: 8px;
+}
+.see-more{
+    height: 5vh;
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(8, 141, 8);
+    color: #f3f3f3;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-star{
+    margin-top: 4px;
+}
+.see-more:hover{
+    background-color: red;
+}
+h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    animation: animate 1s 1s infinite linear;
+}
+@keyframes animate {
+    0%{
+        color:olivedrab;
+    }
+    100%{
+        color: red;
+    }
+}
+/* image section -========== 1========= LAPTOP SEC=======  */
 .box-img1{
-    height: 185px;
-    width:230px;
+    height: 42vh;
+    width: 90%;
     background-image: url("image/box1_image.jpg");
+    background-size: cover;
     margin-left: 18px;
     cursor: pointer;
 }
 .box-img2{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box2_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 .box-img3{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box3_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 .box-img4{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box4_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
-/* --------------section-2------------------------- */
+/* --------------image section-2------------ AIR PODS DEVICE------------- */
 .shop-section2{
     display: flex;
     justify-content: space-evenly;
@@ -260,8 +307,8 @@ span{
     /* background-color: white; */
 }
 .box-img5{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box5_image.jpg");
     background-size: cover;
     margin-left:18px;
@@ -269,65 +316,199 @@ span{
 }
 
 .box-img6{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box6_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 .box-img7{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box7_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 .box-img8{
-    height: 185px;
-    width:230px;
+    height:42vh ;
+    width:90%;
     background-image: url("image/box8_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
+/*  image section ===== 3 === FRUITS=========== */
+.mainDiv{
+    width: 35%;
+    height: 6vh;
+    margin-top: 10px;
+    margin-left: 21px;
+    background-color: green;
+    border-radius: 10px;
+}
+.mainDiv:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.txt{
+    color: #f3f3f3;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
 
 .box-img9{
-    height: 185px;
-    width:230px;
-    background-image: url("image/box9_image.jpg");
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box5_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 
 .box-img10{
-    height: 185px;
-    width:230px;
-    background-image: url("image/box10_image.jpg");
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box6_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 
 .box-img11{
-    height: 185px;
-    width:230px;
-    background-image: url("image/box11_image.jpg");
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box7_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
 
 .box-img12{
-    height: 185px;
-    width:230px;
-    background-image: url("image/box12_image.jpg");
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box8_image.jpg");
     background-size: cover;
     margin-left:18px;
     cursor: pointer;
 }
+
+/* IMAGE SECTION --- FOOD -----4-------- */
+.box-img13{
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box1_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img14{
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box2_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img15{
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box3_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img16{
+    height:42vh ;
+    width:90%;
+    background-image: url("food/box4_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+/* IMAGE SECTION ========== 5==================== */
+/* IMAGE SECTION --- FOOD -----5-------- */
+.box-img17{
+    height:42vh ;
+    width:90%;
+    background-image: url("ClothesImage/box2_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img18{
+    height:42vh ;
+    width:90%;
+    background-image: url("ClothesImage/box3_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img19{
+    height:42vh ;
+    width:90%;
+    background-image: url("ClothesImage/box4_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img20{
+    height:42vh ;
+    width:90%;
+    background-image: url("ClothesImage/box5_image.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+/* IMAGE SECTION ========== 5==================== */
+/* IMAGE SECTION --- FOOD -----5-------- */
+.box-img21{
+    height:42vh ;
+    width:90%;
+    background-image: url("OilImage/img1.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img22{
+    height:42vh ;
+    width:90%;
+    background-image: url("OilImage/img2.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img23{
+    height:42vh ;
+    width:90%;
+    background-image: url("OilImage/img3.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+
+.box-img24{
+    height:42vh ;
+    width:90%;
+    background-image: url("OilImage/img4.jpg");
+    background-size: cover;
+    margin-left:18px;
+    cursor: pointer;
+}
+/* ================End Shopping Sections 1 to 6 =============== */
+
+
 /* small section-1 */
 .small-section{
     display: flex;
@@ -422,10 +603,10 @@ ul li{
 }
 
 .row-logo2 img{
-    width: 20px;
-    height: 20px;
+    width: 27px;
+    height: 27px;
     padding-top: 8px;
-    padding-left: 9px;
+    padding-left: 10px;
 }
 img{
     padding-top: 7px;
@@ -435,7 +616,7 @@ img{
     font-size: 20px;
     padding-bottom: 10px;
     color: aliceblue;
-    padding-left: 30px;
+    padding-left: 27px;
     text-decoration: none;
 
 }
@@ -474,7 +655,7 @@ margin-left: 150px;
 }
 
 b{
-    color: darkcyan;
+    color: #f3f3f3;
 }
 .mark{
     display: flex;
@@ -483,18 +664,21 @@ b{
     padding-top: 12px;
     font-size: 25px;
     color: #02274a;
-    height: 6vh;
-    animation: mark 2s 2s infinite linear;
+    height: 7vh;
+    background-color: #0f1111;
+    animation: mark 2s 1s infinite linear;
 }
 
 @keyframes mark {
     0%{
-        color: aliceblue;
+        color:#f8ffff;
+    }
+    50%{
+        color:gold;
     }
     100%{
-        color: #011223;
+        color:darkorange;
     }
-    /* 100%{
-        color: green;
-    } */
 }
+
+
